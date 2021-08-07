@@ -1,0 +1,31 @@
+.wrapper{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  width: 20vw;
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.form_input {
+  margin-top: 5px;
+  padding: 5px;
+  border: 1px solid black;
+  width: 100%;
+}
+
+.form_button {
+  font-size: 14px;
+  border: none;
+  padding: 5px;
+  margin-top: 20px;
+  background-color: black;
+  color: #fff;
+  width: 100%;
+}
